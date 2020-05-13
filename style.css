@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* .headingstuff {
+	margin-top: 100px;
+	padding: 100px;
+	border: 2px solid green;
+} */
+.navbar {
+	background-color: #f4f4f4;
+}
+.nav-link {
+	color: black !important;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-bottom: 1.5px solid transparent;
+	transition: 0.16s all ease-in;
+}
+.nav-link:hover {
+	border-bottom: 1.5px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbar-brand {
+	color: black;
+	font-weight: 800;
+	transition: 0.68s all cubic-bezier(0.43, 1.11, 0.81, 0.16);
+	border-left: 4px solid black;
+	padding-left: 20px;
+}
+
+.navbar-brand:hover {
+	color: blue;
+}
+/* Common */
+#home {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/* Home */
+#home {
+	background-color: #f4f4f4;
+}
+#home .row img {
+	width: 50%;
+}
+#home .main-heading {
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+	margin-top: 90px;
+}
+.specialtext {
+	color: crimson;
+}
+.sub-heading {
+	text-transform: uppercase;
+}
+#home .social-media {
+	margin-top: 20px;
+}
+#home a {
+	color: crimson;
+	margin: 12px;
+	font-size: 30px;
+}
+#home .btn {
+	border-radius: 16px 16px 16px 16px;
+}
